@@ -70,6 +70,7 @@ const RegisterForm = () => {
         type="email"
         {...register("email", { required: true })}
       />
+
       <div className={styles.inputwithicon}>
         <input
           placeholder="Create a password"
